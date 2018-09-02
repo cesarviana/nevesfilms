@@ -28,11 +28,11 @@ function buscaVideos(){
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>EZY - Responsive Multi-Purpose HTML5 Template 1.1.0</title>
+    <title>Neves Films</title>
 
-    <meta name="keywords" content="HTML5 Template" />
-    <meta name="description" content="EZY - Responsive HTML5 Template">
-    <meta name="author" content="okler.net">
+    <meta name="keywords" content="Filme, Vídeo, Gravação de Vídeo, Empresa, Divulgação" />
+    <meta name="description" content="Produção de Filmes para Empresas">
+    <meta name="author" content="vianasistemas">
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -67,6 +67,24 @@ function buscaVideos(){
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
@@ -79,11 +97,11 @@ function buscaVideos(){
                             <div class="header-column justify-content-start">
                                 <span class="d-none d-sm-flex align-items-center">
                                     <i class="fas fa-map-marker-alt mr-1"></i>
-                                    1234 Street Name, City Name
+                                    Santa Catarina, Brasil
                                 </span>
                                 <span class="d-none d-sm-flex align-items-center ml-4">
                                     <i class="fas fa-phone mr-1"></i>
-                                    <a href="tel:+1234567890">(47) 3332-3018</a>
+                                    <a href="tel:+1234567890">(47) 3318.0431</a>
                                 </span>
                             </div>
                             <div class="header-column justify-content-end">
@@ -118,22 +136,34 @@ function buscaVideos(){
                                 <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                     <nav class="collapse">
                                         <ul class="nav flex-column flex-lg-row align-items-center" id="mainNav">
-                                            <li class="dropdown dropdown-mega order-1">
-                                                <a class="dropdown-item dropdown-toggle active" href="index.html">
+                                            
+                                            <li>
+                                                <a class="active" href="#header" data-hash>
                                                     Home
                                                 </a>
                                             </li>
-                                            <li class="dropdown dropdown-mega dropdown-mega-style-2 order-2">
-                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                            
+                                            <li>
+												<a href="#who-we-are" data-hash>
                                                     Quem somos
                                                 </a>
-                                            </li>
-                                            <li class="dropdown order-3">
-                                                <a class="dropdown-item dropdown-toggle" href="#">
-                                                    Portfólio
+											</li>
+
+                                            <li>
+												<a href="#portifolio" data-hash>
+                                                    Portifólio
                                                 </a>
+											</li>
+
+                                            <li class="d-none d-lg-flex px-4">
+                                                <span class="header-logo border-0">
+                                                    <a href="index.html">
+                                                        <img src="images/logo.webp" data-change-src="images/logo.webp" width="65" height="65" alt="" />
+                                                    </a>
+                                                </span>
                                             </li>
-                                            <li class="dropdown dropdown-mega dropdown-mega-style-2 order-7">
+
+                                            <li>
                                                 <a class="dropdown-item dropdown-toggle" href="#">
                                                     Clientes
                                                 </a>
@@ -142,13 +172,6 @@ function buscaVideos(){
                                                 <a class="dropdown-item dropdown-toggle" href="#">
                                                     Contato
                                                 </a>
-                                            </li>
-                                            <li class="d-none d-lg-flex order-5 px-4">
-                                                <span class="header-logo border-0">
-                                                    <a href="index.html">
-                                                        <img src="images/logo.webp" data-change-src="images/logo.webp" width="65" height="65" alt="" />
-                                                    </a>
-                                                </span>
                                             </li>
                                         </ul>
                                     </nav>
@@ -241,7 +264,7 @@ function buscaVideos(){
                 </div>
             </div>
 
-            <section class="section">
+            <section class="section" id="who-we-are">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
@@ -595,11 +618,24 @@ function buscaVideos(){
                 </div>
             </section>
 
-            <section class="section portfolio">
+            <section class="section dark" id="portifolio">
 
                 <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
+                                style="animation-delay: 100ms;">
+                                <span class="top-sub-title text-color-primary">Conheça o nosso</span>
+        
+                                <h2 class="font-weight-bold text-6 mb-3">Portifólio</h2>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="row" id="portfolioLoadMoreWrapper">
-                    <?php 
+
+                    <?php
                         $i = 0;
                         foreach($videos as $video):
                             $i++;
@@ -774,8 +810,6 @@ function buscaVideos(){
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
 
-    <!-- Examples -->
-    <script src="js/examples/examples.lightboxes.js"></script>
 
 </body>
 

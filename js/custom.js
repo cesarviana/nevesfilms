@@ -55,7 +55,6 @@
             self.$loader.show();
 
             var $items = $('.vimeoVideo:hidden').slice(0, 2).show()
-            $items.remove()
 
             setTimeout(function () {
                 self.$wrapper.append($items)
@@ -70,5 +69,21 @@
     if ($('#portfolioLoadMoreWrapper').get(0)) {
         portfolioLoadMore.build();
     }
+
+    $(document).ready(function(){
+
+        $('.popup-vimeo').magnificPopup({
+            type: 'iframe',
+            callbacks: {
+                open: function() {
+                    $('html').addClass('lightbox-open');
+                },
+                close: function() {
+                    $('html').removeClass('lightbox-open');
+                }
+            }
+        });
+
+    })
 
 }).apply(this, [jQuery]);
