@@ -76,7 +76,7 @@ function buscaVideos(){
     <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
@@ -136,24 +136,24 @@ function buscaVideos(){
                                 <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                     <nav class="collapse">
                                         <ul class="nav flex-column flex-lg-row align-items-center" id="mainNav">
-                                            
+
                                             <li>
                                                 <a class="active" href="#header" data-hash>
                                                     Home
                                                 </a>
                                             </li>
-                                            
-                                            <li>
-												<a href="#who-we-are" data-hash>
-                                                    Quem somos
-                                                </a>
-											</li>
 
                                             <li>
-												<a href="#portifolio" data-hash>
+                                                <a href="#who-we-are" data-hash>
+                                                    Quem somos
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#portifolio" data-hash>
                                                     Portifólio
                                                 </a>
-											</li>
+                                            </li>
 
                                             <li class="d-none d-lg-flex px-4">
                                                 <span class="header-logo border-0">
@@ -413,7 +413,8 @@ function buscaVideos(){
                         </div>
                         <div class="col-md-4 text-md-right mb-4 mb-md-0 appear-animation" data-appear-animation="fadeInRightShorter">
                             <a href="#" class="btn btn-primary btn-rounded font-weight-semibold btn-v-4 btn-h-4">GET STARTED
-                                NOW</a>
+                                NOW
+                            </a>
                         </div>
                     </div>
                     <div class="row align-items-baseline appear-animation" data-appear-animation="fadeInRightShorter">
@@ -465,160 +466,8 @@ function buscaVideos(){
                     </div>
                 </div>
             </section>
-            <section class="section call-to-action bg-light-5 call-to-action-height-2">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-9 col-lg-9">
-                            <div class="call-to-action-content text-center text-md-left appear-animation" data-appear-animation="fadeInLeftShorter">
-                                <h2 class="font-weight-bold text-5">Call us now <a href="tel:+123456789" class="text-color-primary">123-456-7890</a>
-                                    or send an email <a href="mailto:you@domain.com" class="text-underline text-color-primary">you@domain.com</a></h2>
-                                <p class="font-weight-light mb-0">Lorem ipsum dolor sit amet, coctetur adipiscing elit. Phasellus
-                                    blandit assa enim. Nullam id varius.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-lg-3">
-                            <div class="call-to-action-btn appear-animation" data-appear-animation="fadeInLeftShorter">
-                                <a href="portfolio-grid-4-columns.html" class="btn btn-outline btn-rounded btn-dark btn-4 btn-h-3 btn-icon-effect-1 font-weight-bold">
-                                    <span class="wrap">
-                                        <span>OUR PORTFOLIO</span>
-                                        <i class="fas fa-angle-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section bg-light">
-                <div class="container">
-                    <div class="row text-center appear-animation" data-appear-animation="fadeInUpShorter">
-                        <div class="col">
-                            <h2 class="text-color-default text-1">TESTIMONIALS & REVIEWS</h2>
-                            <hr class="divider-w-2 divider-size-2 border-color-primary my-4">
-                        </div>
-                    </div>
-                    <div class="row appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="200">
-                        <div class="col">
-                            <div class="owl-carousel owl-theme dots-style-3 nav-style-3 nav-color-dark" data-plugin-options="{'items': 1, 'dots': true, 'nav': true, 'navtext': []}">
-                                <div>
-                                    <div class="row align-items-center justify-content-center">
-                                        <div class="col-md-9 text-center">
-                                            <div class="testimonial testimonial-style-1">
-                                                <blockquote>
-                                                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna
-                                                        purus, aliquet vitae nisi ac, aliquet consectetur est. Suspendisse
-                                                        mattis eu urna eget sodales. Phasellus a vehicula risus. Donec pharetra
-                                                        lectus quis. "</p>
-                                                </blockquote>
-                                                <div class="testimonial-author mb-4">
-                                                    <span>
-                                                        <strong>- John Doe</strong>
-                                                        <span>Okler Themes</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="row align-items-center justify-content-center">
-                                        <div class="col-md-9 text-center">
-                                            <div class="testimonial testimonial-style-1">
-                                                <blockquote>
-                                                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna
-                                                        purus, aliquet vitae nisi ac, aliquet consectetur est. Suspendisse
-                                                        mattis eu urna eget sodales. Phasellus a vehicula risus. Donec pharetra
-                                                        lectus quis. "</p>
-                                                </blockquote>
-                                                <div class="testimonial-author mb-4">
-                                                    <span>
-                                                        <strong>- Bob Doe</strong>
-                                                        <span>EZY Theme</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="row align-items-center justify-content-center">
-                                        <div class="col-md-9 text-center">
-                                            <div class="testimonial testimonial-style-1">
-                                                <blockquote>
-                                                    <p>" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna
-                                                        purus, aliquet vitae nisi ac, aliquet consectetur est. Suspendisse
-                                                        mattis eu urna eget sodales. Phasellus a vehicula risus. Donec pharetra
-                                                        lectus quis. "</p>
-                                                </blockquote>
-                                                <div class="testimonial-author mb-4">
-                                                    <span>
-                                                        <strong>- Monica Doe</strong>
-                                                        <span>Themes Inc</span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-duration="1s">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="card bg-primary-2 border-0 h-100 py-5">
-                                <div class="card-body p-5 appear-animation" data-appear-animation="fadeInRightShorter">
-                                    <span class="top-sub-title text-color-light opacity-5">LOREM IPSUM DOLOR SIT</span>
-                                    <h2 class="font-weight-bold text-color-light text-5 mb-3">Why Us?</h2>
-                                    <p class="text-color-light opacity-7 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit
-                                        amet.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': 'img/projects/generic/project-15-square.jpg'}"></div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': 'img/generic/generic-wide-1.jpg'}"></div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="card bg-primary border-0 h-100 py-5">
-                                <div class="card-body p-5 appear-animation" data-appear-animation="fadeInLeftShorter">
-                                    <span class="top-sub-title text-color-light opacity-5">LOREM IPSUM DOLOR SIT</span>
-                                    <h2 class="font-weight-bold text-color-light text-5 mb-3">Amazing Solutions</h2>
-                                    <p class="text-color-light opacity-7 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': 'img/projects/generic/project-12-square.jpg'}"></div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': 'img/generic/generic-wide-2.jpg'}"></div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="card bg-primary-2 border-0 opacity-9 h-100 py-5">
-                                <div class="card-body p-5 appear-animation" data-appear-animation="fadeInUpShorter">
-                                    <span class="top-sub-title text-color-light opacity-5">LOREM IPSUM DOLOR SIT</span>
-                                    <h2 class="font-weight-bold text-color-light text-5 mb-3">Affordable Prices</h2>
-                                    <p class="text-color-light opacity-7 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                        elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4 col-xl-3 p-0">
-                            <div class="image-frame min-height-300 h-100" data-plugin-image-background data-plugin-options="{'imageUrl': 'img/projects/generic/project-16-square.jpg'}"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="section dark" id="portifolio">
+            <section class="section bg-dark-2" id="portifolio">
 
                 <div class="container">
 
@@ -627,15 +476,15 @@ function buscaVideos(){
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
                                 <span class="top-sub-title text-color-primary">Conheça o nosso</span>
-        
-                                <h2 class="font-weight-bold text-6 mb-3">Portifólio</h2>
+
+                                <h2 class="text-color-light font-weight-bold text-6 mb-3">Portifólio</h2>
                             </div>
                         </div>
                     </div>
 
                     <div class="row" id="portfolioLoadMoreWrapper">
 
-                    <?php
+                        <?php
                         $i = 0;
                         foreach($videos as $video):
                             $i++;
@@ -649,33 +498,40 @@ function buscaVideos(){
                             $createdTime = date_create_from_format('Y-m-d\TH:i:se', $video->created_time);
                             $createdTimeString = $createdTime->format('d/m/Y H:i');
                         ?>
-                    
+
                         <div class="col-md-6 col-sm-12 vimeoVideo mb-5">
-                            
+
                             <div class="portfolio-item">
                                 <article class="blog-post">
-                                    <span class="top-sub-title text-color-primary">
+                                    <span class="top-sub-title text-color-light">
                                         <?= $createdTimeString ?>
                                     </span>
-                                    <h2 class="font-weight-bold text-4 mb-3">
-                                        <a href="blog-single-post.html" class="link-color-dark"><?= $videoName ?></a>
+                                    <h2 class="font-weight-light text-4 mb-3">
+                                        <a href="blog-single-post.html" class="link-color-light">
+                                            <?= $videoName ?></a>
                                     </h2>
                                     <div class="image-frame hover-effect-2">
                                         <div class="image-frame-wrapper">
-                                            <a href="<?= $linkVimeo ?>" class="popup-vimeo"><img src="<?= $picture ?>" class="img-fluid" alt="" /></a>
+                                            <a href="<?= $linkVimeo ?>" class="popup-vimeo"><img src="<?= $picture ?>" class="img-fluid"
+                                                    alt="" /></a>
                                         </div>
                                     </div>
                                     <div class="d-flex opacity-6 my-2">
 
                                         <span class="post-likes d-flex align-items-center pr-3">
-                                            <i class="lnr lnr-heart text-3 mr-1" aria-label="<?= $contentRating ?> users like this video" title="<?= $contentRating ?> avaliações"></i>
-                                            <?= $contentRating ?>
+                                            <i class="text-color-light font-weight-bold lnr lnr-heart text-3 mr-1 " aria-label="<?= $contentRating ?> users like this video"
+                                                title="<?= $contentRating ?> avaliações"></i>
+                                            <span class="text-color-light font-weight-bold">
+                                                <?= $contentRating ?>
+                                            </span>
                                         </span>
 
                                         <span class="post-likes d-flex align-items-center border border-grey border-top-0 border-bottom-0 border-left-0 pr-3">
-                                            <i class="lnr lnr-film-play text-3 mr-1" title="<?= $plays ?> visualizações" aria-label="<?= $plays ?> users played this video">
+                                            <i class="text-color-light font-weight-bold lnr lnr-film-play text-3 mr-1" title="<?= $plays ?> visualizações" aria-label="<?= $plays ?> users played this video">
                                             </i>
-                                            <?= $plays ?>
+                                            <span class="text-color-light font-weight-bold">
+                                                <?= $plays ?>
+                                            </span>
                                         </span>
 
                                     </div>
@@ -683,7 +539,7 @@ function buscaVideos(){
                                 </article>
                             </div>
                         </div>
-                    <?php 
+                        <?php 
                         endforeach;
                     ?>
                     </div>
@@ -704,43 +560,70 @@ function buscaVideos(){
                         </button>
                     </div>
                 </div>
-                
+
             </section>
 
-            <section class="section bg-dark-5">
+            <section class="pt-5 pb-5">
+
                 <div class="container">
-                    <div class="row align-items-center pb-4 appear-animation" data-appear-animation="fadeInRightShorter">
-                        <div class="col-md-9 mb-4 mb-md-0">
-                            <h2 class="font-weight-semibold text-color-light mb-0">Discover EZY. It's easier than you think.</h2>
-                            <p class="font-weight-light text-color-light text-2 mb-0">Start right now to create an amazing
-                                website.</p>
-                        </div>
-                        <div class="col-md-3 text-md-right">
-                            <a href="https://themeforest.net/item/ezy-responsive-multipurpose-html5-template/21814871" class="btn btn-light btn-outline btn-rounded font-weight-semibold btn-v-3 btn-h-2"
-                                target="_blank">BUY EZY FOR <strong class="line-height-1 text-4 font-weight-semibold ml-2">$16</strong></a>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
+                                style="animation-delay: 100ms;">
+                                <span class="top-sub-title text-color-primary">Conheça o nosso</span>
+
+                                <h2 class="font-weight-bold text-6 mb-3">Clientes</h2>
+                            </div>
                         </div>
                     </div>
-                    <hr class="border-light opacity-1 my-5">
-                    <div class="row justify-content-center align-items-center pt-4 appear-animation" data-appear-animation="fadeInLeftShorter"
-                        data-appear-animation-delay="200">
-                        <div class="col-4 col-md-1-5 text-center text-md-left">
-                            <img src="img/logos/logo-7-light.png" width="170" alt="" class="img-fluid opacity-3">
-                        </div>
-                        <div class="col-4 col-md-1-5 text-center">
-                            <img src="img/logos/logo-8-light.png" width="80" alt="" class="img-fluid opacity-3">
-                        </div>
-                        <div class="col-4 col-md-1-5 text-center">
-                            <img src="img/logos/logo-24-light.png" width="100" alt="" class="img-fluid opacity-3">
-                        </div>
-                        <div class="col-4 col-md-1-5 text-center text-md-right mt-5 mt-md-0">
-                            <img src="img/logos/logo-10-light.png" width="140" alt="" class="img-fluid opacity-3">
-                        </div>
-                        <div class="col-4 col-md-1-5 text-center text-md-right mt-5 mt-md-0">
-                            <img src="img/logos/logo-11-light.png" width="100" alt="" class="img-fluid opacity-3">
+                    <div class="row">
+
+                        <div class="owl-carousel owl-theme nav-style-3" data-plugin-options="{'responsive': 
+                                                    {
+                                                        '0': {'items': 1}, 
+                                                        '479': {'items': 1}, 
+                                                        '768': {'items': 2}, 
+                                                        '979': {'items': 3}, 
+                                                        '1199': {'items': 4}
+                                                    }, 
+                                                    'dots': true, 
+                                                    'nav': true, 
+                                                    'animateIn': 'fadeIn', 
+                                                    'animateOut': 'fadeOut', 
+                                                    'margin': 30
+                                                }">
+
+
+                            <div>
+                                <div class="card rounded bg-light-5 border-0">
+                                    <img src="img/projects/generic/project-16-cropped.jpg" class="card-img-top" alt="" />
+                                    <div class="card-body">
+                                        <span class="top-sub-title">LOREM IPSUM DOLOR SIT</span>
+                                        <h4 class="font-weight-bold mb-3">Easy to Customize</h4>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                                            blandit massa enim. Nullam id varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="card rounded bg-light-5 border-0">
+                                    <img src="img/projects/generic/project-16-cropped.jpg" class="card-img-top" alt="" />
+                                    <div class="card-body">
+                                        <span class="top-sub-title">LOREM IPSUM DOLOR SIT</span>
+                                        <h4 class="font-weight-bold mb-3">Easy to Customize</h4>
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                                            blandit massa enim. Nullam id varius.</p>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
             </section>
+
         </div>
         <footer id="footer" class="bg-light mb-5 mt-0">
             <div class="container">
@@ -769,9 +652,11 @@ function buscaVideos(){
                             <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="https://themeforest.net/item/ezy-responsive-multipurpose-html5-template/21814871">Buy
                                     EZY Now</a></li>
                             <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-2.html">Contact
-                                    Us</a></li>
+                                    Us
+                                </a></li>
                             <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-3.html">Hire
-                                    Us</a></li>
+                                    Us
+                                </a></li>
                         </ul>
                     </div>
                 </div>
