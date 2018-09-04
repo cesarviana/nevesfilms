@@ -1,1 +1,21 @@
 /* Add here all your CSS customizations */
+.page-header {
+    background:url('../img/sam-mcghee-281613-unsplash-min-2.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 340px;
+}
+.page-header .container {
+    padding-top: 7%;
+}
+
+/*.main {
+    background-color: #121212;
+}
+.title {
+    color: white
+}*/
+
+.frame-shadow {
+    box-shadow: black 1px 2px 20px 0px !important
+}
