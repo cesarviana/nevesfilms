@@ -68,7 +68,7 @@ function buscaVideos(){
     <script src="vendor/modernizr/modernizr.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
-    <script src="js/app.js"></script>
+    
 
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -273,26 +273,20 @@ function buscaVideos(){
                         <div class="col-md-6">
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
-                                <span class="top-sub-title text-color-primary">LOREM IPSUM DOLOR SIT</span>
+                                <span class="top-sub-title text-color-primary">REFERÊNCIA NA GRAVAÇÃO DE VÍDEOS</span>
 
                                 <h2 class="font-weight-bold text-6 mb-3 title">Quem Somos</h2>
                             </div>
                             <p class="lead mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
-                                data-appear-animation-delay="300" style="animation-delay: 300ms;">Lorem
-                                ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id
-                                varius nunc.</p>
+                                data-appear-animation-delay="300" style="animation-delay: 300ms;">Precisa gravar vídeos com qualidade profissional,
+                                para comerciais, redes sociais e cobertua de eventos?</p>
 
                             <p class="text-color-light-4 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
                                 data-appear-animation-delay="500" style="animation-delay: 500ms;">
-                                Em sintonia com as inovações tecnológicas na área de comunicação audiovisual, a ONION tem as ferramentas que você precisa
-                                para trazer interatividade, criatividade e eficiência aos seus projetos. A ONION cria soluções
-                                personalizadas para múltiplos segmentos empresariais, através da PRODUÇÃO DE CONTEÚDOS AUDIOVISUAIS
-                                em diversos formatos. A equipe da ONION é qualificada para oferecer sugestões que complementam
-                                a ideia inicial do cliente, propondo intervenções criativas a baixo custo, com soluções inovadoras.
-                                A ONION tem a solução audiovisual de acordo com a necessidade do cliente, desde a concepção
-                                de roteiros até a finalização do vídeo, passando por comerciais para a TV e internet, institucionais
-                                corporativos, programas de TV, animações 2D e 3D e conteúdo digital. Conheça mais em nosso
-                                portfólio! .
+                                A Neves Films trabalha com gravação e edição de vídeos para internet, comerciais, sociais, cobertura de eventos e imagens de drone. Prezando sempre pela qualidade de áudio e vídeo de forma criativa e inovadora, confiável, comprometida e profissional. Buscamos sempre estar atualizados em conhecimento e
+novas tecnologias, investindo em novas técnicas e equipamentos. Possuímos
+equipe própria, atendimento exclusivo, larga experiência, grande estrutura o e preço competitivo. Garantimos um serviço de qualidade graças a
+experiência e conhecimento no que fazemos. Sempre com preços justos.
                             </p>
 
                             <a href="contact-us-1.html" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible"
@@ -318,31 +312,38 @@ function buscaVideos(){
 
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
-                                <span class="top-sub-title text-color-primary">Pessoas que formam uma</span>
+                                <span class="top-sub-title text-color-primary">COMPROMETIMENTO</span>
 
                                 <h2 class="font-weight-bold text-color-light mb-3">Equipe profissional</h2>
                             </div>
 
                             <p class="lead mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
-                                data-appear-animation-delay="300" style="animation-delay: 400ms;">Lorem
-                                ipsum dolor sit amet consectetur adipisicing elit. Tempore vero odio, quasi hic accusamus
-                                nam veniam sed animi dolorum at saepe eaque explicabo atque debitis expedita quidem! Ipsam,
-                                modi quisquam.</p>
+                                data-appear-animation-delay="300" style="animation-delay: 400ms;">Profissionais experientes e com desejo de fazer o melhor trabalho. Conheça os integrantes dessa equipe:</p>
 
-                            <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 4}}, 'dots': false, 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
+                            <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 5}, '1199': {'items': 5}}, 'dots': false, 'nav': false, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
 
                                 <div class="owl-stage-outer">
-                                    <div class="owl-stage" style="transform: translate3d(-1140px, 0px, 0px); transition: all 2s ease 2s; width: 4560px;">
+                                    <div class="owl-stage">
 
                                         <div ng-repeat="person in team" class="owl-item cloned" style="width: 255px; margin-right: 30px;">
-                                            <div>
-                                                <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-wrapper-overlay-light image-frame-wrapper-align-end">
+
+                                            <div class="image-frame image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                                <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-wrapper-align-end">
                                                     <img ng-src="images/{{ person.image }}" class="frame-shadow" alt="">
                                                     <div class="image-frame-action">
-                                                        <h5>{{ person.function }}</h5>
+                                                        <a href="#" class="btn btn-primary btn-rounded font-weight-semibold btn-v-3 btn-fs-2">{{ person.function }}</a>
                                                     </div>
                                                 </div>
                                             </div>
+                                            
+                                            <!-- <div>
+                                                <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-effect-1 image-frame-wrapper-overlay-light image-frame-wrapper-align-end">
+                                                    <img ng-src="images/{{ person.image }}" class="frame-shadow" alt="">
+                                                    <div class="image-frame-action bg-primary p-3 text-center">
+                                                        <h5 class="text-color-light">{{ person.function }}</h5>
+                                                    </div>
+                                                </div>
+                                            </div> -->
                                             <div style="text-align: center">
                                                 <h4 class="pt-2 text-color-light">{{ person.name }}</h4>
                                                 <p>
@@ -410,7 +411,7 @@ function buscaVideos(){
                         <div class="col-md-6">
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
-                                <span class="top-sub-title text-color-primary">Parte da nossa história</span>
+                                <span class="top-sub-title text-color-primary">FOCO EM ATENDER</span>
 
                                 <h2 class="font-weight-bold text-6 mb-3">Clientes</h2>
                             </div>
@@ -694,6 +695,7 @@ function buscaVideos(){
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
 
+    <script src="js/app.js"></script>
 
 </body>
 

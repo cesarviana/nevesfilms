@@ -54,10 +54,8 @@
             self.$btn.hide();
             self.$loader.show();
 
-            var $items = $('.vimeoVideo:hidden').slice(0, 2).show()
-
             setTimeout(function () {
-                self.$wrapper.append($items)
+                $('.vimeoVideo:hidden').slice(0, 2).show()
                 self.$loader.hide();
                 self.$btn.show();
             }, 1000);
