@@ -336,14 +336,6 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
                                                 </div>
                                             </div>
                                             
-                                            <!-- <div>
-                                                <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-effect-1 image-frame-wrapper-overlay-light image-frame-wrapper-align-end">
-                                                    <img ng-src="images/{{ person.image }}" class="frame-shadow" alt="">
-                                                    <div class="image-frame-action bg-primary p-3 text-center">
-                                                        <h5 class="text-color-light">{{ person.function }}</h5>
-                                                    </div>
-                                                </div>
-                                            </div> -->
                                             <div style="text-align: center">
                                                 <h4 class="pt-2 text-color-light">{{ person.name }}</h4>
                                                 <p>
@@ -367,42 +359,6 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
 
                 </div>
             </section>
-
-            <div class="parallax section section-height-3 section-text-light overlay overlay-color-dark overlay-show overlay-op-8" data-plugin-parallax=""
-                data-plugin-options="{'speed': 1.5}" data-image-src="img/parallax/parallax-4.jpg" style="position: relative; overflow: hidden;">
-                <div
-                    class="parallax-background" style="background-image: url(&quot;img/parallax/parallax-4.jpg&quot;); background-size: cover; background-position: 50% center; position: absolute; top: 0px; left: 0px; width: 100%; height: 180%; transform: translate3d(0px, -74.2205px, 0px);"></div>
-                <div class="container">
-                    <div class="counters counters-light">
-                        <div class="row">
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="counter">
-                                    <strong data-to="18000" data-append="+">18000+</strong>
-                                    <label>Happy Clients</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="counter">
-                                    <strong data-to="16">16</strong>
-                                    <label>Pre-made Demos</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="counter">
-                                    <strong data-to="3500" data-append="+">3500+</strong>
-                                    <label>Answered Tickets</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 col-lg-3">
-                                <div class="counter">
-                                    <strong data-to="3000" data-append="+">3000+</strong>
-                                    <label>Development Hours</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <section class="pt-5 pb-5">
 
@@ -440,7 +396,7 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
                                     <img src="img/projects/generic/project-16-cropped.jpg" class="card-img-top" alt="" />
                                     <div class="card-body">
                                         <span class="top-sub-title">LOREM IPSUM DOLOR SIT</span>
-                                        <h4 class="font-weight-bold mb-3">Easy to Customize</h4>
+                                        <h4 class="font-weight-bold mb-3">Cliente</h4>
                                         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
                                             blandit massa enim. Nullam id varius.</p>
                                     </div>
@@ -551,118 +507,7 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
             </section>
 
         </div>
-        <footer id="footer" class="footer-reveal footer-hover-links-light mt-0" data-plugin-image-background="" data-plugin-options="{'imageUrl': 'img/footer/background-1.png', 'bgPosition': 'center 100%'}"
-            style="background-image: url(&quot;img/footer/background-1.png&quot;); background-size: cover; background-position: center 100%; background-repeat: no-repeat;">
-            <div class="container">
-                <div class="footer-top-featured-boxes featured-boxes">
-                    <div class="row">
-                        <div class="featured-box col-lg-4">
-                            <a class="text-decoration-none" href="#">
-                                <img src="img/icons/icon-1.svg" class="img-responsive appear-animation animated fadeInRightShorter appear-animation-visible"
-                                    data-appear-animation="fadeInRightShorter" data-appear-animation-delay="100" alt="Icon 1"
-                                    style="animation-delay: 100ms;">
-                                <div class="d-inline-block appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter"
-                                    data-appear-animation-delay="150" style="animation-delay: 150ms;">
-                                    <h2 class="text-2 pt-1 mb-0">AMAZING VIDEOS</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="featured-box col-lg-4">
-                            <a class="text-decoration-none" href="#">
-                                <img src="img/icons/icon-2.svg" class="img-responsive appear-animation animated fadeInRightShorter appear-animation-visible"
-                                    data-appear-animation="fadeInRightShorter" data-appear-animation-delay="300" alt="Icon 2"
-                                    style="animation-delay: 300ms;">
-                                <div class="d-inline-block appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter"
-                                    data-appear-animation-delay="350" style="animation-delay: 350ms;">
-                                    <h2 class="text-2 pt-1 mb-0">COMPLETE DOCUMENTATION</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="featured-box col-lg-4">
-                            <a class="text-decoration-none" href="#">
-                                <img src="img/icons/icon-3.svg" class="img-responsive appear-animation animated fadeInRightShorter appear-animation-visible"
-                                    data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500" alt="Icon 3"
-                                    style="animation-delay: 500ms;">
-                                <div class="d-inline-block appear-animation animated fadeInLeftShorter appear-animation-visible" data-appear-animation="fadeInLeftShorter"
-                                    data-appear-animation-delay="550" style="animation-delay: 550ms;">
-                                    <h2 class="text-2 pt-1 mb-0">FAST SUPPORT</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-5 mb-4 mb-lg-0">
-                        <a href="index.html" class="logo">
-                            <img alt="EZY Website Template" class="img-fluid mb-3" src="img/logo-footer.png">
-                        </a>
-                        <p>Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
-                        <ul class="list list-icon list-unstyled">
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Address:</span>
-                                1234 Street Name, City Name, USA</li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Phone:</span>
-                                <a href="tel:+1234567890">(123) 456-7890</a></li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Email:</span>
-                                <a href="mailto:mail@example.com" class="link-underline-light">mail@example.com</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 mb-4 mb-lg-0">
-                        <h2 class="text-3 mb-3">USEFUL LINKS</h2>
-                        <ul class="list list-icon list-unstyled">
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="https://themeforest.net/item/ezy-responsive-multipurpose-html5-template/21814871">Buy
-                                    EZY Now</a></li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-2.html">Contact
-                                    Us
-                                </a></li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-3.html">Hire
-                                    Us
-                                </a></li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Our Profile</a></li>
-                            <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Get Support</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h2 class="text-3 mb-3">LATEST NEWS</h2>
-                        <div class="mb-3">
-                            <p class="mb-1"><a href="blog-single-post.html" class="d-block">Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Praesent</a></p>
-                            <a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">March
-                                5, 2018</a>
-                        </div>
-                        <div>
-                            <p class="mb-1"><a href="blog-single-post.html" class="d-block">Dolor sit amet, consectetur adipiscing
-                                    elit.
-                                </a></p>
-                            <a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">March
-                                5, 2018</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <div class="container">
-                    <div class="row text-center text-md-left align-items-center">
-                        <div class="col-md-7 col-lg-8">
-                            <ul class="social-icons social-icons-transparent social-icons-icon-light social-icons-lg">
-                                <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i
-                                            class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i
-                                            class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-5 col-lg-4">
-                            <p class="text-md-right pb-0 mb-0">Copyrights © 2018. All Rights Reserved by Okler</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        
     </div>
 
     <!-- Vendor -->
