@@ -1,8 +1,6 @@
 angular.module('app',[])
 .controller('SiteController', function( $scope ){
 
-    themeInit()
-    
     $scope.team = [
         {
             name: 'Raul Neves',

@@ -19,3 +19,7 @@
 .frame-shadow {
     box-shadow: black 1px 2px 20px 0px !important
 }
+
+.mfp-container {
+    background: #000a
+}
