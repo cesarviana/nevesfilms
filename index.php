@@ -122,7 +122,7 @@ function buscaVideos(){
                         <div class="header-column justify-content-start">
                             <div class="header-logo border-left-0 px-4 d-lg-none">
                                 <a href="#">
-                                    <img src="images/logo.webp" data-change-src="images/logo.webp" width="55" height="55" alt="" style="z-index:1" />
+                                    <img src="images/logo.svg" alt="Logomarca do site" data-change-src="images/logo.svg" width="55" height="55" alt="" style="z-index:1" />
                                 </a>
                             </div>
                             <ul class="header-social-icons social-icons social-icons-transparent social-icons-icon-light border-left-0 d-none d-lg-flex px-2 px-xl-4">
@@ -161,7 +161,7 @@ function buscaVideos(){
                                             <li class="d-none d-lg-flex px-4">
                                                 <span class="header-logo border-0">
                                                     <a href="index.html">
-                                                        <img src="images/logo.webp" data-change-src="images/logo.webp" width="65" height="65" alt="" />
+                                                        <img src="images/logo.svg" data-change-src="images/logo.svg" width="65" height="65" alt="" />
                                                     </a>
                                                 </span>
                                             </li>
@@ -183,11 +183,11 @@ function buscaVideos(){
                         </div>
                         <div class="header-column justify-content-end">
                             <div class="header-button d-none d-sm-flex border-right-0 px-2 px-xl-4">
-                                <a href="https://themeforest.net/item/ezy-responsive-multipurpose-html5-template/21814871" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1"
+                                <a href="tel:+554733323019" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1"
                                     target="_blank">
                                     <span class="wrap">
                                         <span>(47) 3332-3019</span>
-                                        <i class="fas fa-shopping-cart"></i>
+                                        <i class="fas fa-phone"></i>
                                     </span>
                                 </a>
                             </div>
@@ -226,7 +226,7 @@ function buscaVideos(){
                                 data-transform_out="y:[-50%];opacity:0;s:500;">A sua empresa reconhecida</div>
 
                             <a class="tp-caption layer-border-width-1 popup-vimeo btn btn-light btn-outline rounded-circle d-flex align-items-center justify-content-center"
-                                href="https://vimeo.com/45830194" data-x="center" data-y="center" data-voffset="['150','150','150','200']"
+                                href="https://vimeo.com/288411014" data-x="center" data-y="center" data-voffset="['150','150','150','200']"
                                 data-width="90" data-height="90" data-start="1900" data-fontsize="['22','22','22','22']" data-transform_in="opacity:0;s:500;"
                                 data-transform_out="opacity:0;s:500;"><i class="fas fa-play"></i></a>
 
@@ -266,7 +266,6 @@ function buscaVideos(){
                     </ul>
                 </div>
             </div>
-
             <section class="section" id="who-we-are">
                 <div class="container">
                     <div class="row">
@@ -283,14 +282,10 @@ function buscaVideos(){
 
                             <p class="text-color-light-4 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
                                 data-appear-animation-delay="500" style="animation-delay: 500ms;">
-                                A Neves Films trabalha com gravação e edição de vídeos para internet, comerciais, sociais, cobertura de eventos e imagens de drone. Prezando sempre pela qualidade de áudio e vídeo de forma criativa e inovadora, confiável, comprometida e profissional. Buscamos sempre estar atualizados em conhecimento e
-novas tecnologias, investindo em novas técnicas e equipamentos. Possuímos
-equipe própria, atendimento exclusivo, larga experiência, grande estrutura o e preço competitivo. Garantimos um serviço de qualidade graças a
-experiência e conhecimento no que fazemos. Sempre com preços justos.
+                                A Neves Films trabalha com gravação e edição de vídeos para internet, comerciais, sociais, cobertura de eventos e imagens de drone. Prezando sempre pela qualidade de áudio e vídeo de forma criativa e inovadora, confiável, comprometida e profissional. Buscamos sempre estar atualizados em conhecimento e novas tecnologias, investindo em novas técnicas e equipamentos. Possuímos equipe própria, atendimento exclusivo, larga experiência, grande estrutura o e preço competitivo. Garantimos um serviço de qualidade graças a experiência e conhecimento no que fazemos. Sempre com preços justos.
                             </p>
 
-                            <a href="contact-us-1.html" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible"
-                                data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Contato</a>
+                            <a href="contact-us-1.html" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Contato</a>
                         </div>
                         <div class="col-10 col-md-6 col-lg-5 ml-auto mr-auto mb-5 mt-5 center appear-animation animated fadeInUpShorter appear-animation-visible"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">
@@ -301,15 +296,10 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
 
             </section>
 
-
-
             <section class="bg-dark-2">
                 <div class="container pb-3 pt-5">
-
                     <div class="row mt-5">
-
                         <div class="col-md-12">
-
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
                                 <span class="top-sub-title text-color-primary">COMPROMETIMENTO</span>
@@ -361,19 +351,16 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
             </section>
 
             <section class="pt-5 pb-5">
-
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
                                 <span class="top-sub-title text-color-primary">FOCO EM ATENDER</span>
-
                                 <h2 class="font-weight-bold text-6 mb-3">Clientes</h2>
                             </div>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="owl-carousel owl-theme nav-style-3" data-plugin-options="{'responsive': 
                                                     {
@@ -389,8 +376,6 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
                                                     'animateOut': 'fadeOut', 
                                                     'margin': 30
                                                 }">
-
-
                             <div>
                                 <div class="card rounded bg-light-5 border-0">
                                     <img src="img/projects/generic/project-16-cropped.jpg" class="card-img-top" alt="" />
@@ -505,7 +490,62 @@ experiência e conhecimento no que fazemos. Sempre com preços justos.
                 </div>
 
             </section>
-
+            
+            <footer id="footer" class="footer-hover-links-light">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 mb-4 mb-lg-0">
+							<a href="index.html" class="logo">
+								<img alt="Logomarca do site da NevesFilms" class="img-fluid mb-3" src="images/logo.svg">
+							</a>
+							<p>Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
+							<ul class="list list-icon list-unstyled">
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Endereço:</span> Prédio Atitude, Centro - Gaspar - SC</li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Telefone:</span> <a href="tel:+554733323019">(47) 3332-3019</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Email:</span> <a href="mailto:contato@nevesfilms.com.br" class="link-underline-light">contato@nevesfilms.com.br</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 mb-4 mb-lg-0">
+							<h2 class="text-3 mb-3">LINKS ÚTEIS</h2>
+							<ul class="list list-icon list-unstyled">
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-2.html">TV Gaspar</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-3.html">Player Web</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Painel de LED</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Mídias Digitais</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Facebook</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Twitter</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3">
+							<h2 class="text-3 mb-3">CONTEÚDO ADICIONAL</h2>
+							<div class="mb-3">
+								<p class="mb-1"><a href="blog-single-post.html" class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent</a></p>
+								<a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">19 de agosto de 2018</a>
+							</div>
+							<div>
+								<p class="mb-1"><a href="blog-single-post.html" class="d-block">Dolor sit amet, consectetur adipiscing elit.</a></p>
+								<a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">19 de agosto de 2018</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row text-center text-md-left align-items-center">
+							<div class="col-md-7 col-lg-8">
+								<ul class="social-icons social-icons-transparent social-icons-icon-light social-icons-lg">
+									<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+									<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+								</ul>
+							</div>
+							<div class="col-md-5 col-lg-4">
+								<p class="text-md-right pb-0 mb-0">CC Sites</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
         </div>
         
     </div>
