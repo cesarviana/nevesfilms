@@ -2,6 +2,10 @@
     ini_set('display_errors', 1); 
     ini_set('display_startup_errors', 1); 
     error_reporting(E_ALL);
+$instagram = 'https://www.instagram.com/nevesfilms/';
+$facebook = 'https://www.facebook.com/nevesfilm/';
+$vimeo = 'https://vimeo.com/nevesfilms';
+
 $videos = buscaVideos();
 function buscaVideos(){
 	$curl = curl_init();
@@ -126,11 +130,11 @@ function buscaVideos(){
                                 </a>
                             </div>
                             <ul class="header-social-icons social-icons social-icons-transparent social-icons-icon-light border-left-0 d-none d-lg-flex px-2 px-xl-4">
-                                <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i
+                                <li class="social-icons-facebook"><a href="<?= $facebook ?>" target="_blank" title="Facebook"><i
                                             class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i
+                                <li class="social-icons-twitter"><a href="<?= $vimeo ?>" target="_blank" title="Vimeo"><i
+                                            class="fab fa-vimeo"></i></a></li>
+                                <li class="social-icons-instagram"><a href="<?= $instagram ?>" target="_blank" title="Instagram"><i
                                             class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
@@ -531,9 +535,9 @@ function buscaVideos(){
 						<div class="row text-center text-md-left align-items-center">
 							<div class="col-md-7 col-lg-8">
 								<ul class="social-icons social-icons-transparent social-icons-icon-light social-icons-lg">
-									<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-									<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-									<li class="social-icons-instagram"><a href="http://www.instagram.com/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+									<li class="social-icons-facebook"><a href="<?= $facebook ?>" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+									<li class="social-icons-twitter"><a href="<?= $vimeo ?>" target="_blank" title="Twitter"><i class="fab fa-vimeo"></i></a></li>
+									<li class="social-icons-instagram"><a href="<?= $instagram ?>" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></li>
 								</ul>
 							</div>
 							<div class="col-md-5 col-lg-4">
