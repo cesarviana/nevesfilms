@@ -104,7 +104,7 @@ function buscaVideos(){
                                 </span>
                                 <span class="d-none d-sm-flex align-items-center ml-4">
                                     <i class="fas fa-phone mr-1"></i>
-                                    <a href="tel:+1234567890">(47) 3318.0431</a>
+                                    <a href="tel:+55 47 9 9743-6800">47 9 9743-6800</a>
                                 </span>
                             </div>
                             <div class="header-column justify-content-end">
@@ -183,10 +183,9 @@ function buscaVideos(){
                         </div>
                         <div class="header-column justify-content-end">
                             <div class="header-button d-none d-sm-flex border-right-0 px-2 px-xl-4">
-                                <a href="tel:+554733323019" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1"
-                                    target="_blank">
+                                <a href="tel:+55 47 9 9743-6800" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1">
                                     <span class="wrap">
-                                        <span>(47) 3332-3019</span>
+                                        <span>47 9 9743-6800</span>
                                         <i class="fas fa-phone"></i>
                                     </span>
                                 </a>
@@ -329,9 +328,7 @@ function buscaVideos(){
                                             <div style="text-align: center">
                                                 <h4 class="pt-2 text-color-light">{{ person.name }}</h4>
                                                 <p>
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequatur, quaerat obcaecati unde hic nesciunt nobis? Odit
-                                                    sint explicabo, dignissimos asperiores dicta unde ipsam beatae, quae
-                                                    sed, fugiat voluptas alias.
+                                                    {{ person.description }}
                                                 </p>
                                             </div>
                                         </div>
@@ -357,7 +354,7 @@ function buscaVideos(){
                             <div class="appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="100"
                                 style="animation-delay: 100ms;">
                                 <span class="top-sub-title text-color-primary">FOCO EM ATENDER</span>
-                                <h2 class="font-weight-bold text-6 mb-3">Clientes</h2>
+                                <h2 class="font-weight-bold text-color-light text-6 mb-3">Clientes</h2>
                             </div>
                         </div>
                     </div>
@@ -500,8 +497,8 @@ function buscaVideos(){
 							</a>
 							<p>Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
 							<ul class="list list-icon list-unstyled">
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Endereço:</span> Prédio Atitude, Centro - Gaspar - SC</li>
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Telefone:</span> <a href="tel:+554733323019">(47) 3332-3019</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Endereço:</span>Atitude Centro Empresarial <br> Rua São José, nº 253, 4 andar, Sala 407, Gaspar/SC </li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Whatsapp:</span> <a href="tel:+55 47 9 9743-6800">47 9 9743-6800</a></li>
 								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Email:</span> <a href="mailto:contato@nevesfilms.com.br" class="link-underline-light">contato@nevesfilms.com.br</a></li>
 							</ul>
 						</div>
@@ -518,14 +515,14 @@ function buscaVideos(){
 						</div>
 						<div class="col-lg-3">
 							<h2 class="text-3 mb-3">CONTEÚDO ADICIONAL</h2>
-							<div class="mb-3">
-								<p class="mb-1"><a href="blog-single-post.html" class="d-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent</a></p>
-								<a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">19 de agosto de 2018</a>
-							</div>
-							<div>
-								<p class="mb-1"><a href="blog-single-post.html" class="d-block">Dolor sit amet, consectetur adipiscing elit.</a></p>
-								<a href="blog-single-post.html" class="font-tertiary font-style-italic text-color-light">19 de agosto de 2018</a>
-							</div>
+							<div class="card rounded bg-dark-2 border-0">
+                                    <img src="images/atitude.jpg" class="card-img-top" alt="" />
+                                <div class="pt-2">
+                                    <span class="top-sub-title">Localização privilegiada</span>
+                                    <h4 class="font-weight-bold mb-2">Centro Empresarial Atitude</h4>
+                                    <p class="mb-0">Estamos localizados no centro da cidade de Gaspar. Venha conhecer nosso trabalho!</p>
+                                </div>
+                            </div>
 						</div>
 					</div>
 				</div>
