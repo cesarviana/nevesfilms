@@ -6,8 +6,8 @@ $instagram = 'https://www.instagram.com/nevesfilms/';
 $facebook = 'https://www.facebook.com/nevesfilm/';
 $vimeo = 'https://vimeo.com/nevesfilms';
 
-$videos = buscaVideos();
-function buscaVideos(){
+$videos = getVideosFromVimeo();
+function getVideosFromVimeo(){
 	$curl = curl_init();
 	curl_setopt_array($curl, 
 	[
@@ -22,6 +22,10 @@ function buscaVideos(){
 	$json = json_decode($response);
 	return $json->data;
 }
+define('DATA_LINK','https://pastebin.com/raw/Ku71Hb0z');
+$data = json_decode(file_get_contents(DATA_LINK));
+$customers = $data->customers;
+$team = $data->team;
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -40,9 +44,6 @@ function buscaVideos(){
 
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-
-    <!-- Web Fonts  -->
-    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -71,9 +72,6 @@ function buscaVideos(){
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.2/angular.min.js"></script>
-    
-
     <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
@@ -91,9 +89,7 @@ function buscaVideos(){
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
 </head>
-
 <body ng-app="app" ng-controller="SiteController">
     <div class="body">
         <header id="header" class="header-transparent header-with-borders-dark header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyStartAt': 30}">
@@ -216,7 +212,7 @@ function buscaVideos(){
                     <ul>
 
                         <li class="slide-overlay slide-overlay-level-0" data-transition="slideleft">
-                            <img src="images/slides/f2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="3000"
+                            <img src="imagesCompressed/slides/f2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="3000"
                                 data-offsetstart="250 100" class="rev-slidebg">
 
                             <h1 class="tp-caption text-color-light font-primary" data-x="center" data-y="center" data-voffset="['-55','-55','-55','0']"
@@ -236,7 +232,7 @@ function buscaVideos(){
                         </li>
 
                         <li class="slide-overlay slide-overlay-level-0" data-transition="slideleft">
-                            <img src="images/slides/jakob-owens-198234-unsplash.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
+                            <img src="imagesCompressed/slides/jakob-owens-198234-unsplash.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
                                 data-duration="3000" data-scalestart="100" data-scaleend="150" data-offsetstart="250 100" class="rev-slidebg">
 
                             <h1 class="tp-caption text-color-light font-primary pl-3" data-x="left" data-hoffset="['100','0','0','0']" data-y="center"
@@ -251,7 +247,7 @@ function buscaVideos(){
                         </li>
 
                         <li class="slide-overlay slide-overlay-level-0" data-transition="slideleft">
-                            <img src="images/slides/lamp.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="3000"
+                            <img src="imagesCompressed/slides/lamp.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-duration="3000"
                                 data-scalestart="100" data-scaleend="150" data-offsetstart="250 100" class="rev-slidebg">
 
                             <h1 class="tp-caption text-color-dark font-weight-bold font-primary pr-3" data-x="right" data-hoffset="['100','0','0','0']"
@@ -313,30 +309,30 @@ function buscaVideos(){
                             <p class="lead mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
                                 data-appear-animation-delay="300" style="animation-delay: 400ms;">Profissionais experientes e com desejo de fazer o melhor trabalho. Conheça os integrantes dessa equipe:</p>
 
-                            <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 5}, '1199': {'items': 5}}, 'dots': false, 'nav': false, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
+                            <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 5}, '1199': {'items': 5}}, 'dots': false, 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
 
                                 <div class="owl-stage-outer">
                                     <div class="owl-stage">
-
-                                        <div ng-repeat="person in team" class="owl-item cloned" style="width: 255px; margin-right: 30px;">
+                                        <?php foreach($team as $person) : ?>
+                                        <div class="owl-item cloned" style="width: 255px; margin-right: 30px;">
 
                                             <div class="image-frame image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
                                                 <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-wrapper-align-end">
-                                                    <img ng-src="images/{{ person.image }}" class="frame-shadow" alt="">
+                                                    <img src="imagesCompressed/team/<?= $person->image ?>" class="frame-shadow" alt="">
                                                     <div class="image-frame-action">
-                                                        <a href="#" class="btn btn-primary btn-rounded font-weight-semibold btn-v-3 btn-fs-2">{{ person.function }}</a>
+                                                        <a href="#" class="btn btn-primary btn-rounded font-weight-semibold btn-v-3 btn-fs-2"><?= $person->function ?></a>
                                                     </div>
                                                 </div>
                                             </div>
                                             
                                             <div style="text-align: center">
-                                                <h4 class="pt-2 text-color-light">{{ person.name }}</h4>
+                                                <h4 class="pt-2 text-color-light"><?= $person->name ?></h4>
                                                 <p>
-                                                    {{ person.description }}
+                                                    <?= $person->description ?>
                                                 </p>
                                             </div>
                                         </div>
-
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                                 <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"></button><button
@@ -363,35 +359,19 @@ function buscaVideos(){
                         </div>
                     </div>
                     <div class="row">
-                        <div class="owl-carousel owl-theme nav-style-3" data-plugin-options="{'responsive': 
-                                                    {
-                                                        '0': {'items': 1}, 
-                                                        '479': {'items': 1}, 
-                                                        '768': {'items': 2}, 
-                                                        '979': {'items': 3}, 
-                                                        '1199': {'items': 4}
-                                                    }, 
-                                                    'dots': true, 
-                                                    'nav': true, 
-                                                    'animateIn': 'fadeIn', 
-                                                    'animateOut': 'fadeOut', 
-                                                    'margin': 30
-                                                }">
-                            <div>
-                                <div class="card rounded bg-light-5 border-0">
-                                    <img src="img/projects/generic/project-16-cropped.jpg" class="card-img-top" alt="" />
-                                    <div class="card-body">
-                                        <span class="top-sub-title">LOREM IPSUM DOLOR SIT</span>
-                                        <h4 class="font-weight-bold mb-3">Cliente</h4>
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                                            blandit massa enim. Nullam id varius.</p>
-                                    </div>
-                                </div>
+                        <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 3}}, 'dots': false, 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30, 'autoplay': true, 'autoplayHoverPause':true}">
+
+                            <?php
+                            foreach($customers as $customer) :
+                            ?>
+                            <div class="image-frame">
+                                <img src="<?php echo $customer->image ?>" class="img-fluid" alt="">
                             </div>
-
+                            <?php endforeach; ?>
+                            
                         </div>
-                    </div>
 
+                    </div>
                 </div>
 
             </section>
@@ -520,7 +500,7 @@ function buscaVideos(){
 						<div class="col-lg-3">
 							<h2 class="text-3 mb-3">CONTEÚDO ADICIONAL</h2>
 							<div class="card rounded bg-dark-2 border-0">
-                                    <img src="images/atitude.jpg" class="card-img-top" alt="" />
+                                    <img src="imagesCompressed/atitude.jpg" class="card-img-top" alt="" />
                                 <div class="pt-2">
                                     <span class="top-sub-title">Localização privilegiada</span>
                                     <h4 class="font-weight-bold mb-2">Centro Empresarial Atitude</h4>
@@ -581,7 +561,7 @@ function buscaVideos(){
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
 
-    <script src="js/app.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
 
 </body>
 

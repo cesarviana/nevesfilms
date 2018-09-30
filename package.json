@@ -1,0 +1,27 @@
+{
+  "name": "nevesfilms",
+  "version": "1.0.0",
+  "description": "Site Neves Films",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarviana/nevesfilms.git"
+  },
+  "keywords": [
+    "neves",
+    "films"
+  ],
+  "author": "Cesar Viana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesarviana/nevesfilms/issues"
+  },
+  "homepage": "https://github.com/cesarviana/nevesfilms#readme",
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-image": "^4.2.0"
+  }
+}
