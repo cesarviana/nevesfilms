@@ -167,7 +167,7 @@ $team = $data->team;
                                             </li>
 
                                             <li>
-                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                <a class="dropdown-item dropdown-toggle" href="#customers" data-hash>
                                                     Clientes
                                                 </a>
                                             </li>
@@ -347,7 +347,7 @@ $team = $data->team;
                 </div>
             </section>
 
-            <section class="pt-5 pb-5">
+            <section class="pt-5 pb-5" id="customers">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
