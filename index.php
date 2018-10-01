@@ -5,6 +5,8 @@
 $instagram = 'https://www.instagram.com/nevesfilms/';
 $facebook = 'https://www.facebook.com/nevesfilm/';
 $vimeo = 'https://vimeo.com/nevesfilms';
+$tvGaspar = 'http://www.tvgaspar.com.br';
+$grupoRaul = 'http://gruporaulneves.com.br';
 
 $videos = getVideosFromVimeo();
 function getVideosFromVimeo(){
@@ -26,6 +28,7 @@ define('DATA_LINK','https://pastebin.com/raw/Ku71Hb0z');
 $data = json_decode(file_get_contents(DATA_LINK));
 $customers = $data->customers;
 $team = $data->team;
+$aboutText = $data->aboutText;
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -160,7 +163,7 @@ $team = $data->team;
 
                                             <li class="d-none d-lg-flex px-4">
                                                 <span class="header-logo border-0">
-                                                    <a href="index.html">
+                                                    <a href="#header" data-hash>
                                                         <img src="images/logo.svg" data-change-src="images/logo.svg" width="65" height="65" alt="" />
                                                     </a>
                                                 </span>
@@ -172,7 +175,7 @@ $team = $data->team;
                                                 </a>
                                             </li>
                                             <li class="dropdown order-8">
-                                                <a class="dropdown-item dropdown-toggle" href="#">
+                                                <a class="dropdown-item dropdown-toggle" href="#footer" data-hash>
                                                     Contato
                                                 </a>
                                             </li>
@@ -281,7 +284,7 @@ $team = $data->team;
 
                             <p class="text-color-light-4 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
                                 data-appear-animation-delay="500" style="animation-delay: 500ms;">
-                                A Neves Films trabalha com gravação e edição de vídeos para internet, comerciais, sociais, cobertura de eventos e imagens de drone. Prezando sempre pela qualidade de áudio e vídeo de forma criativa e inovadora, confiável, comprometida e profissional. Buscamos sempre estar atualizados em conhecimento e novas tecnologias, investindo em novas técnicas e equipamentos. Possuímos equipe própria, atendimento exclusivo, larga experiência, grande estrutura o e preço competitivo. Garantimos um serviço de qualidade graças a experiência e conhecimento no que fazemos. Sempre com preços justos.
+                                <?= $aboutText; ?>
                             </p>
 
                             <a href="contact-us-1.html" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Contato</a>
@@ -489,12 +492,12 @@ $team = $data->team;
 						<div class="col-lg-3 mb-4 mb-lg-0">
 							<h2 class="text-3 mb-3">LINKS ÚTEIS</h2>
 							<ul class="list list-icon list-unstyled">
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-2.html">TV Gaspar</a></li>
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="contact-us-3.html">Player Web</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Painel de LED</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Mídias Digitais</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Facebook</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="#">Twitter</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $tvGaspar ?>">TV Gaspar</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Player Web</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Painel de LED</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Mídias Digitais</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $facebook ?>">Facebook</a></li>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $vimeo ?> ">Vimeo</a></li>
 							</ul>
 						</div>
 						<div class="col-lg-3">
