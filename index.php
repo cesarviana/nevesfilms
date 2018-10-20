@@ -2,11 +2,18 @@
     ini_set('display_errors', 1); 
     ini_set('display_startup_errors', 1); 
     error_reporting(E_ALL);
+
 $instagram = 'https://www.instagram.com/nevesfilms/';
 $facebook = 'https://www.facebook.com/nevesfilm/';
 $vimeo = 'https://vimeo.com/nevesfilms';
-$tvGaspar = 'http://www.tvgaspar.com.br';
-$grupoRaul = 'http://gruporaulneves.com.br';
+$links = [
+    (object) ['texto'=>'TV Gaspar',         'url'=>'http://www.tvgaspar.com.br'],
+    (object) ['texto'=>'PlayerWeb',         'url'=>'https://www.playerweb.com.br'],
+    (object) ['texto'=>'Grupo Raul Neves',  'url'=>'http://gruporaulneves.com.br'],
+    (object) ['texto'=>'Instagram',         'url'=>$instagram],
+    (object) ['texto'=>'Facebook',          'url'=>$facebook],
+    (object) ['texto'=>'Vimeo',             'url'=>$vimeo]
+];
 
 $videos = getVideosFromVimeo();
 function getVideosFromVimeo(){
@@ -492,12 +499,13 @@ $aboutText = $data->aboutText;
 						<div class="col-lg-3 mb-4 mb-lg-0">
 							<h2 class="text-3 mb-3">LINKS ÚTEIS</h2>
 							<ul class="list list-icon list-unstyled">
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $tvGaspar ?>">TV Gaspar</a></li>
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Player Web</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Painel de LED</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $grupoRaul ?>">Mídias Digitais</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $facebook ?>">Facebook</a></li>
-                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <a href="<?= $vimeo ?> ">Vimeo</a></li>
+<?php foreach($links as $link) : ?>
+                                <li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i>
+                                <a href="<?= $link->url ?>">
+                                    <?= $link->texto ?>
+                                </a>
+                                </li>
+<?php endforeach; ?>
 							</ul>
 						</div>
 						<div class="col-lg-3">
