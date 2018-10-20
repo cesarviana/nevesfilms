@@ -317,43 +317,33 @@ $aboutText = $data->aboutText;
                             </div>
 
                             <p class="lead mb-3 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter"
-                                data-appear-animation-delay="300" style="animation-delay: 400ms;">Profissionais experientes e com desejo de fazer o melhor trabalho. Conheça os integrantes dessa equipe:</p>
+                                data-appear-animation-delay="300" style="animation-delay: 400ms;">Profissionais experientes e com desejo de fazer o melhor trabalho. Conheça os integrantes dessa equipe:
+                            </p>
 
-                            <div class="owl-carousel owl-theme nav-style-3 owl-loaded owl-drag owl-carousel-init" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 5}, '1199': {'items': 5}}, 'dots': false, 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
-
-                                <div class="owl-stage-outer">
-                                    <div class="owl-stage">
-                                        <?php foreach($team as $person) : ?>
-                                        <div class="owl-item cloned" style="width: 255px; margin-right: 30px;">
-
-                                            <div class="image-frame image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
-                                                <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-wrapper-align-end">
-                                                    <img src="imagesCompressed/team/<?= $person->image ?>" class="frame-shadow" alt="">
-                                                    <div class="image-frame-action">
-                                                        <a href="#" class="btn btn-primary btn-rounded font-weight-semibold btn-v-3 btn-fs-2"><?= $person->function ?></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            
-                                            <div style="text-align: center">
-                                                <h4 class="pt-2 text-color-light"><?= $person->name ?></h4>
-                                                <p>
-                                                    <?= $person->description ?>
-                                                </p>
+                            <div class="owl-carousel owl-theme nav-style-3" data-plugin-options="{'responsive': {'0': {'items': 1}, '479': {'items': 1}, '768': {'items': 2}, '979': {'items': 3}, '1199': {'items': 5}}, 'dots': false, 'nav': true, 'animateIn': 'fadeIn', 'animateOut': 'fadeOut', 'margin': 30}">
+                                <?php foreach($team as $person) : ?>
+                                <div>
+                                    
+                                    <div class="image-frame image-frame-style-1 image-frame-effect-2 image-frame-effect-1">
+                                        <div class="image-frame-wrapper image-frame-wrapper-overlay-bottom image-frame-wrapper-align-end">
+                                            <img src="imagesCompressed/team/<?= $person->image ?>" class="frame-shadow" alt="">
+                                            <div class="image-frame-action">
+                                                <span class="font-weight-bold"><?= $person->function ?></span>
                                             </div>
                                         </div>
-                                        <?php endforeach; ?>
+                                    </div>
+
+                                    <div style="text-align: center">
+                                        <h4 class="pt-2 text-color-light"><?= $person->name ?></h4>
+                                        <p>
+                                            <?= $person->description ?>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="owl-nav"><button type="button" role="presentation" class="owl-prev"></button><button
-                                        type="button" role="presentation" class="owl-next"></button></div>
-                                <div class="owl-dots disabled"></div>
+                                <?php endforeach; ?>
                             </div>
-
                         </div>
-
                     </div>
-
                 </div>
             </section>
 
