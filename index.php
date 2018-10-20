@@ -6,7 +6,7 @@
 $instagram = 'https://www.instagram.com/nevesfilms/';
 $facebook = 'https://www.facebook.com/nevesfilm/';
 $vimeo = 'https://vimeo.com/nevesfilms';
-$gks = [
+$links = [
     (object) ['texto'=>'TV Gaspar',         'url'=>'http://www.tvgaspar.com.br'],
     (object) ['texto'=>'PlayerWeb',         'url'=>'https://www.playerweb.com.br'],
     (object) ['texto'=>'Grupo Raul Neves',  'url'=>'http://gruporaulneves.com.br'],
@@ -121,7 +121,7 @@ $aboutText = $data->aboutText;
                             <div class="header-column justify-content-end">
                                 <ul class="nav">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact-us-1.html">Contate-nos</a>
+                                        <a class="nav-link" href="<?=$linkWhats?>">Contate-nos</a>
                                     </li>
                                 </ul>
                             </div>
@@ -295,7 +295,7 @@ $aboutText = $data->aboutText;
                                 <?= $aboutText; ?>
                             </p>
 
-                            <a href="contact-us-1.html" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Contato</a>
+                            <a href="<?=$linkWhats?>" class="btn btn-outline btn-rounded btn-primary btn-v-3 btn-h-4 font-weight-bold text-0 appear-animation animated fadeInUpShorter appear-animation-visible" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700" style="animation-delay: 700ms;">Contato</a>
                         </div>
                         <div class="col-10 col-md-6 col-lg-5 ml-auto mr-auto mb-5 mt-5 center appear-animation animated fadeInUpShorter appear-animation-visible"
                             data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400" style="animation-delay: 400ms;">

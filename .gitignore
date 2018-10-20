@@ -1,3 +1,4 @@
 .mp*
 node_modules
 images/compressed
+update.php
