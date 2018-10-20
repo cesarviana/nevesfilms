@@ -6,7 +6,7 @@
 $instagram = 'https://www.instagram.com/nevesfilms/';
 $facebook = 'https://www.facebook.com/nevesfilm/';
 $vimeo = 'https://vimeo.com/nevesfilms';
-$links = [
+$gks = [
     (object) ['texto'=>'TV Gaspar',         'url'=>'http://www.tvgaspar.com.br'],
     (object) ['texto'=>'PlayerWeb',         'url'=>'https://www.playerweb.com.br'],
     (object) ['texto'=>'Grupo Raul Neves',  'url'=>'http://gruporaulneves.com.br'],
@@ -14,7 +14,8 @@ $links = [
     (object) ['texto'=>'Facebook',          'url'=>$facebook],
     (object) ['texto'=>'Vimeo',             'url'=>$vimeo]
 ];
-
+$telefone = '55 47 997436800';
+$linkWhats = 'https://api.whatsapp.com/send?phone='.preg_replace('/\s/','',$telefone);
 $videos = getVideosFromVimeo();
 function getVideosFromVimeo(){
 	$curl = curl_init();
@@ -114,7 +115,7 @@ $aboutText = $data->aboutText;
                                 </span>
                                 <span class="d-none d-sm-flex align-items-center ml-4">
                                     <i class="fas fa-phone mr-1"></i>
-                                    <a href="https://api.whatsapp.com/send?phone=5547997436800">47 9 9743-6800</a>
+                                    <a href="<?=$linkWhats?>"><?=$telefone?></a>
                                 </span>
                             </div>
                             <div class="header-column justify-content-end">
@@ -193,9 +194,9 @@ $aboutText = $data->aboutText;
                         </div>
                         <div class="header-column justify-content-end">
                             <div class="header-button d-none d-sm-flex border-right-0 px-2 px-xl-4">
-                                <a href="https://api.whatsapp.com/send?phone=5547997436800" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1">
+                                <a href="<?=$linkWhats?>" class="btn btn-outline btn-rounded btn-light btn-sticky-primary btn-4 btn-icon-effect-1">
                                     <span class="wrap">
-                                        <span>47 9 9743-6800</span>
+                                        <span><?=$telefone?></span>
                                         <i class="fas fa-phone"></i>
                                     </span>
                                 </a>
@@ -482,7 +483,7 @@ $aboutText = $data->aboutText;
 							<p>Phasellus blandit massa enim. Nullam id varius nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc.</p>
 							<ul class="list list-icon list-unstyled">
 								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Endereço:</span>Atitude Centro Empresarial <br> Rua São José, nº 253, 4 andar, Sala 407, Gaspar/SC </li>
-								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Whatsapp:</span> <a href="https://api.whatsapp.com/send?phone=5547997436800">47 9 9743-6800</a></li>
+								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Whatsapp:</span> <a href="https://api.whatsapp.com/send?phone=5547997436800"><?=$telefone?></a></li>
 								<li class="mb-2"><i class="fas fa-angle-right mr-2 ml-1"></i> <span class="text-color-light">Email:</span> <a href="mailto:contato@nevesfilms.com.br" class="link-underline-light">contato@nevesfilms.com.br</a></li>
 							</ul>
 						</div>
