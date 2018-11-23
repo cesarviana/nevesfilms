@@ -182,7 +182,7 @@ $aboutText = $data->aboutText;
                                         </li>
 
                                         <li>
-                                            <a href="#portifolio" data-hash>
+                                            <a href="#albumns" data-hash>
                                                 Portifólio
                                             </a>
                                         </li>
@@ -438,7 +438,7 @@ $aboutText = $data->aboutText;
 
         </section>
 
-        <section class="section bg-dark-2" id="portfolio">
+        <section class="section bg-dark-2" id="albumns">
             <div class="container">
 
                 <div class="row">
