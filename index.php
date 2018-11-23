@@ -505,7 +505,7 @@ $aboutText = $data->aboutText;
                                                     <?= $createdTimeString ?>
                                                 </span>
                                                 <h2 class="font-weight-light text-4 mb-3">
-                                                    <a href="blog-single-post.html" title="<?= $videoName ?>" class="link-color-light"><?= $videoNameShort ?></a>
+                                                    <a href="<?= $linkVimeo ?>" class="popup-vimeo" title="<?= $videoName ?>" class="link-color-light"><?= $videoNameShort ?></a>
                                                 </h2>
                                                 <div class="image-frame frame-shadow">
                                                     <div class="image-frame-wrapper">
