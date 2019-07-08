@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/cesarviana/nevesfilms#readme",
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-image": "^4.2.0"
+    "grunt": "^1.0.4",
+    "grunt-image": "^5.0.1"
   }
 }
