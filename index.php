@@ -53,7 +53,7 @@ $team = $data->team;
 $aboutText = $data->aboutText;
 ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt">
 
 <head>
 
