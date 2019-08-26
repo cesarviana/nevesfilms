@@ -1,0 +1,52 @@
+{
+    "aboutText" : "A Neves Films é uma produtora audiovisual sediada em Gaspar, que produz vídeos em toda a região, dedicada e comprometida com a qualidade, sempre unindo criatividade com os melhores equipamentos. A empresa surgiu em 1994, com Raul Neves, e sua esposa. Hoje os filhos fazem parte desta história. Em 2011, a equipe teve a brilhante ideia de lançar a TV Gaspar. Hoje as duas empresas, TV Gaspar e Neves Films trabalham lado a lado.",
+    "team" : [
+        {
+            "name":"Raul Neves",
+            "function":"Diretor",
+            "image": "Raul_MG_9298.jpg",
+            "description": "Começou na RBS TV como cinegrafista, teve passagens pela TV furb, Em 1994, iniciou seu próprio negócio, Com mais de 30 anos de experiência no ramo de vídeo, já produziu vídeos para o Senai, Teka. Hoje o negócio virou da família e todos estão envolvidos."
+        },
+        {
+            "name":"Ivan Neves",
+            "function":"Videomaker",
+            "image": "Ivan_MG_9150.jpg",
+            "description": "Comprometido e com um olhar atento as imagens aéreas. "
+        },
+        {
+            "name":"Diego Neves",
+            "function":"Videomaker & Editor",
+            "image": "Diego_MG_9192.jpg",
+            "description": "Profissional responsável pelas belas imagens e edições diferenciadas. "
+        },
+        {
+            "name":"Junior Neves",
+            "function":"Editor",
+            "image": "Junior_MG_9171.jpg",
+            "description": "Filho mais novo, desde muito cedo envolvido com os trabalhos na empresa, hoje ele é o responsável pelas animações em vídeo. "
+        },
+        {
+            "name":"Lene Neves",
+            "function":"Comercial",
+            "image": "Lene_MG_9226.jpg",
+            "description": "Esposa, mãe e comprometida com a área comercial da empresa."
+        }
+    ],
+    "customers" : [
+        { "image":"https://i.ibb.co/DR3VqY1/cdl-gaspar-min.jpg" },
+        { "image":"https://i.ibb.co/MpMYfpN/circulo-min.jpg" },
+        { "image":"https://i.ibb.co/XphjBZV/fazzenda-min.jpg" },
+        { "image":"https://i.ibb.co/xXGz7k1/global-sonic-min.jpg" },
+        { "image":"https://i.ibb.co/QFbBRqB/mega-min.jpg" },
+		{ "image":"https://image.ibb.co/cvzg3e/3L.jpg" },
+		{ "image":"https://image.ibb.co/cQ4EOe/agile.jpg" },
+		{ "image":"https://image.ibb.co/irgHbz/beauty.jpg" },
+		{ "image":"https://image.ibb.co/cLfAwz/bela_Vista.jpg" },
+		{ "image":"https://image.ibb.co/mhz3Gz/cristina_Store.jpg" },
+		{ "image":"https://image.ibb.co/g5zg3e/doctor_Sim.jpg" },
+		{ "image":"https://image.ibb.co/ensepK/duSparta.jpg" },
+		{ "image":"https://image.ibb.co/kqHC9K/gloriosa.jpg" },
+		{ "image":"https://image.ibb.co/fE38ie/pinoco.jpg" },
+		{ "image":"https://image.ibb.co/iwASbz/sorrimix.jpg" }
+    ]
+}

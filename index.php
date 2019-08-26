@@ -29,6 +29,15 @@ foreach($albums as $album) {
     $videos = array_merge($videos, $videosAlbum);
 }
 
+function compareVideos($a, $b){
+    $createdTimeA = date_create_from_format('Y-m-d\TH:i:se', $a->created_time);
+    $createdTimeB = date_create_from_format('Y-m-d\TH:i:se', $b->created_time);
+    $dateInterval = $createdTimeA->diff($createdTimeB);
+    return $dateInterval->invert ? -1 : 1;
+}
+
+usort($videos, "compareVideos");
+
 function get($route)
 {
     $curl = curl_init();
